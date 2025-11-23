@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+
+
+    
+}
+.header-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: px;
+    padding:10px 400px ;
+    
+    
+}
+.header-links a{
+    
+    background-color: rgb(142, 209, 187);
+    width: 80px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    transition: 0.3s;
+    padding: 5px 10px;
+    
+    
+
+}
+.header-links a:hover{
+    background-color: peru;
+    color: white;
+    letter-spacing: 1px;
+}
+.ongoing{
+    background-color: rgb(231, 220, 220);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.completed-projects{
+    background-color: rgb(200, 230, 201);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.upcoming-projects{
+    background-color: rgb(255, 224, 178);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #e7d6d6;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    font-weight: 800;
+}
